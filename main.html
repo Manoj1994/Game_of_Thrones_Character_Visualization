@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Page Title</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<div class="header">
+  <h1 class="title_head" >Visualizing Crime in Baltimore</h1>
+</div>
+<body class="bodyclass">
+  <div class="container">
+    <div class="blocks">
+      <p>This is a data visualization about crime incidents in Baltimore from 2011 (December) to 2017 (September). I took the data from Kaggle and I used Tableau for visualization. I looked at some important features and generated reports specific to them. The features that have chosen are the time of day, type of crime, and spatial distribution of incidents.</p>
+    </div>
+    <div class="blocks">
+      <p>The Baltimore Police Department (BPD) provides police services to the city of Baltimore, Maryland and is organized into ten districts. Here's the map:</p>
+    </div>
+
+  <div class="gallery">
+      <img src="img2.png"  height="350px" width="100%">
+
+  </div>
+
+  <h3 class="questions">Do you find communities (modularity) in the graph?</h3>
+
+  <div class="gallery">
+      <img src="modularity.png"  height="500px" width="700px">
+
+  </div>
+  
+  <div class="blocks">
+    <p>The population of the city haven't changed much during the last five years, so its fine to aggregate crimes of different years.
+    Here we can see north eastern and south eastern ditricts are top 2 districts that have hightest criminal incidents. Moreoever, the remaining districts have similar criminal incidents.
+    The overall criminal record across all the districts doesnt vary much.</p>
+  </div>
+
+  <h3 class="questions"> What is the average degree centrality? What is the implication for the specific network you've chosen?</h3>
+
+  <div class="gallery">
+      <img src="degree.png"  height="500px" width="700px">
+
+  </div>
+
+  <div class="blocks">
+  <p>Incidents relating larceny, common assault and burglary occur more frequently than other categories. Where as incidents across homicide and other categories are far less compared to top categories. However, homicides per capita of baltimore is more than national average,
+  which makes baltimore dangerous place to live.</p>
+
+  </div>
+     <h3 class="questions">What is the average betweenness centrality? What is the implication for the specific network you've chosen?</h3>
+
+     <div class="gallery">
+      <img src="betweeness.png"  height="500px" width="700px">
+
+      </div>
+
+
+    <div class="blocks">
+    <p>Here, we can observe that more number of incidents occuring in neighbourhoods of central, eastern and north eastern districts. Apart from that, frequency of incidents in other neighbourhoods looks similar.</p>
+
+    </div>
+
+ <h3 class="questions"> Any districts where particular crimes are increasing or decreasing?</h3>
+
+
+ <div class="blocks">
+   <p>For this analysis, I picked high rate criminal categories like Auto theft, larceny etc..
+   Here we can observe larceny incidents are more than other criminal incidents in all the districts.
+   Burglary and common assualt are next two common categories across all districts.
+   As we can see, other criminal categories remain in similar frequency across the districts. </p>
+
+ </div>
+
+ <div class="gallery">
+      <img src="img2.png" height="450px" width="100%">
+  </div>
+
+</div>
+</body>
+
+</html>
